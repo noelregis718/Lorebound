@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/room/join": "pages/room/join.js",
   "/": "pages/index.js",
+  "/room/join": "pages/room/join.js",
+  "/room/[id]": "pages/room/[id].js",
   "/login": "pages/login.js"
 }

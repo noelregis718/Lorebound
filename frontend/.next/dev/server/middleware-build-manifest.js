@@ -29,6 +29,11 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/login.js"
     ],
+    "/room/[id]": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/room/[id].js"
+    ],
     "/room/join": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
