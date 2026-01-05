@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![Lorebound Banner](https://github.com/user-attachments/assets/3eb25f54-8bf0-41ae-8938-629575c5b2ae)
 
 
 
