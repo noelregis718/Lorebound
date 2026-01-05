@@ -8,6 +8,6 @@ google-auth-httplib2
 TTS
 openai-whisper
 openai
-torch
+torch --index-url https://download.pytorch.org/whl/cpu
 numpy
 soundfile
