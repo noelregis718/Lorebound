@@ -16,6 +16,8 @@ from app.auth import (
     create_access_token
 )
 from app.auth import get_current_user
+from dotenv import load_dotenv
+load_dotenv()
 
 
 
