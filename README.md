@@ -2,7 +2,10 @@
 
 <div align="center">
 
-![Lorebound Banner](https://img.shields.io/badge/Lorebound-Voice--Driven%20AI%20Storytelling-blueviolet?style=for-the-badge&logo=bookstack)
+![Lorebound Banner](https://github.com/user-attachments/assets/3eb25f54-8bf0-41ae-8938-629575c5b2ae)
+
+
+
 
 **A Voice-Driven, Multiplayer AI Storytelling Platform**
 <img width="1454" height="816" alt="Screenshot 2026-01-02 at 10 26 07 PM" src="https://github.com/user-attachments/assets/6be9f51c-0161-4f3f-b355-d39903ebe103" />
@@ -16,7 +19,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
-[Demo](#) · [Documentation](#) · [Report Bug](#) · [Request Feature](#)
+[Demo](https://drive.google.com/file/d/1OtgdhSgnxYFOpR1BIqdr6QYeotY4zAwF/view?usp=sharing) · [Documentation](#) · [Report Bug](#) · [Request Feature](#)
 
 </div>
 
