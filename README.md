@@ -7,7 +7,7 @@
 
 
 **A Voice-Driven, Multiplayer AI Storytelling Platform**
-<img width="1454" height="816" alt="Screenshot 2026-01-02 at 10 26 07 PM" src="https://github.com/user-attachments/assets/6be9f51c-0161-4f3f-b355-d39903ebe103" />
+<img width="1454" height="816" alt="Screenshot 2026-01-02 at 10 26 07 PM" src="https://drive.google.com/file/d/1OtgdhSgnxYFOpR1BIqdr6QYeotY4zAwF/view?usp=sharing" />
 
 
 *Speak. Create. Become the story.*
