@@ -1,15 +1,18 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
+import { useAuth } from "@/utils/useAuth";
+import { logout } from "@/utils/logout";
+import UserBadge from "@/components/UserBadge";
 
 export default function JoinRoom() {
   const [roomId, setRoom] = useState("");
   const router = useRouter();
-  
-  // Simulating router for demo
+
+  useAuth();
+
   const handleJoinRoom = () => {
     if (roomId.trim()) {
-    //   alert(`Joining room: ${room}`);
-      router.push(`/room/${roomId}`)
+      router.push(`/room/${roomId}`);
     }
   };
 
@@ -44,8 +47,44 @@ export default function JoinRoom() {
         }}></div>
       </div>
 
+      {/* Top Navigation Bar */}
+      <div className="absolute top-0 right-0 z-50 p-6">
+        <div className="flex items-center gap-4">
+          {/* User Badge */}
+          <div className="transform transition-all duration-300 hover:scale-105">
+            <UserBadge />
+          </div>
+
+          {/* Logout Button */}
+          <button 
+            onClick={() => logout(router)}
+            className="group relative bg-white/10 backdrop-blur-md hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-full border border-white/30 shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 overflow-hidden"
+          >
+            {/* Shimmer Effect */}
+            <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
+            
+            {/* Button Content */}
+            <div className="relative flex items-center gap-2">
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                className="h-5 w-5 group-hover:rotate-12 transition-transform duration-300" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                strokeWidth="2"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+              </svg>
+            </div>
+
+            {/* Glow Effect */}
+            <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-r from-red-500/20 via-pink-500/20 to-purple-500/20 blur-xl"></div>
+          </button>
+        </div>
+      </div>
+
       {/* Main Card */}
-      <div className="relative z-10 w-full max-w-lg">
+      <div className="relative z-10 w-full max-w-lg mt-16">
         {/* Glow Effect Behind Card */}
         <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 rounded-3xl blur-3xl opacity-40 animate-pulse"></div>
         
@@ -109,6 +148,7 @@ export default function JoinRoom() {
                   placeholder="Enter room id"
                   value={roomId}
                   onChange={(e) => setRoom(e.target.value)}
+                  onKeyPress={(e) => e.key === 'Enter' && handleJoinRoom()}
                   className="relative w-full px-6 py-5 text-lg border-2 border-gray-200 rounded-2xl focus:border-purple-500 focus:outline-none focus:ring-4 focus:ring-purple-500/20 transition-all duration-300 text-gray-800 placeholder-gray-400 bg-white/80 backdrop-blur-sm shadow-lg group-hover:shadow-xl font-medium"
                 />
                 {/* Icon with Animation */}

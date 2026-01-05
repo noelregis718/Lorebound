@@ -2,6 +2,7 @@ import { useParams } from "next/navigation";
 import { useEffect, useState, useRef } from "react";
 import { recordAudio } from "@/utils/recorder";
 import { uploadAudio } from "@/utils/upload";
+import { useAuth } from "@/utils/useAuth";
 
 export default function Room() {
   const params = useParams();
@@ -13,6 +14,7 @@ export default function Room() {
   const [userId, setUserId] = useState("");
   const wsRef = useRef<WebSocket | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  useAuth();
 
   function playAudio(url: string) {
     const audio = new Audio(url);
