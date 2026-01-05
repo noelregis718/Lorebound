@@ -6,7 +6,10 @@
 **A Voice-Driven, Multiplayer AI Storytelling Platform**
 
 
-https://github.com/user-attachments/assets/ef517298-48e4-426e-a7e6-d07d445929f3
+
+
+https://github.com/user-attachments/assets/7ff6b8df-8eef-4e12-bcd1-a899e0e1035f
+
 
 
 
