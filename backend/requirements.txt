@@ -1,7 +1,13 @@
 fastapi
-uvicorn
+uvicorn[standard]
 python-dotenv
-python-multipart
-tts
+python-jose
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+TTS
 openai-whisper
 openai
+torch
+numpy
+soundfile
