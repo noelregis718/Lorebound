@@ -1,7 +1,5 @@
 # 📖 Lorebound
 
-# 📖 Lorebound
-
 **A Voice-Driven, Multiplayer AI Storytelling Platform**
 
 *Speak. Create. Become the story.*
