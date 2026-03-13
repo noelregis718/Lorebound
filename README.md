@@ -1,17 +1,8 @@
 # 📖 Lorebound
 
-<div align="center">
-
+# 📖 Lorebound
 
 **A Voice-Driven, Multiplayer AI Storytelling Platform**
-
-
-
-
-https://github.com/user-attachments/assets/7ff6b8df-8eef-4e12-bcd1-a899e0e1035f
-
-
-
 
 *Speak. Create. Become the story.*
 
@@ -22,8 +13,6 @@ https://github.com/user-attachments/assets/7ff6b8df-8eef-4e12-bcd1-a899e0e1035f
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
 [Demo](https://drive.google.com/file/d/1OtgdhSgnxYFOpR1BIqdr6QYeotY4zAwF/view?usp=sharing) · [Documentation](#) · [Report Bug](#) · [Request Feature](#)
-
-</div>
 
 ---
 
@@ -321,10 +310,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<div align="center">
-
 **⭐ If you like this project, please give it a star! ⭐**
 
 Made with ❤️ and lots of ☕
-
-</div>
