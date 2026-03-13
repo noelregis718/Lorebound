@@ -155,8 +155,8 @@ sequenceDiagram
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/lorebound.git
-cd lorebound/backend
+git clone https://github.com/noelregis718/VoxTale.git
+cd VoxTale/backend
 
 # Create virtual environment
 python3.11 -m venv venv
@@ -303,11 +303,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👩‍💻 Author
 
-**Umangi Nigam**
+**Noel Regis**
 
-- B.Tech CSE | AI & Full-Stack Developer
+- AI & Full-Stack Developer
 - Focus: Real-time systems, AI orchestration, applied ML
-- GitHub: [@Umangi](https://github.com/Umanginigam)
+- GitHub: [@noelregis718](https://github.com/noelregis718)
 
 ---
 
